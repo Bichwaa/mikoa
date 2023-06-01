@@ -7,9 +7,9 @@ def transform_dict(dictionary):
         "name": dictionary["name"],
         "postcode": dictionary["postcode"],
         "parent": {
-            "id": dictionary["parent"]["id"],
-            "name": dictionary["parent"]["name"],
-            "postcode": dictionary["parent"]["postcode"]
+            "id": dictionary["parent"]["parent"]["id"],
+            "name": dictionary["parent"]["parent"]["name"],
+            "postcode": dictionary["parent"]["parent"]["postcode"]
         }
     }
     return transformed_dict
@@ -36,7 +36,7 @@ def store_wards_in_file(data):
     # Save JSON data to a file
     try:
         with open(f"wards.json", "w") as file:
-            json.dump(data, file)   
+            json.dump(data, file, indent=4)   
     except Exception as e:
         print("An error occured while saving ward to file:", str(e))
 

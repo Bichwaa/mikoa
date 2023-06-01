@@ -13,7 +13,7 @@ def store_regions(link):
     data = json.loads(json_data)
     # Save JSON data to a file
     with open("regions.json", "w") as file:
-        json.dump(data, file)
+        json.dump(data, file, indent=4)
 
 
 # store_regions(url)

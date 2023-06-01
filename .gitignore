@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 .vscode
+output.txt
 .todo-env
 ./todo-env
 todo-env

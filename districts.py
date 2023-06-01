@@ -36,7 +36,7 @@ def store_districts_in_file(data):
     # Save JSON data to a file
     try:
         with open(f"districts.json", "w") as file:
-            json.dump(data, file)   
+            json.dump(data, file, indent=4)   
     except Exception as e:
         print("An error occured while saving district to file:", str(e))
 
