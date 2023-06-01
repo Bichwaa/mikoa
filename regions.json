@@ -1,0 +1,159 @@
+{
+    "data": [
+        {
+            "id": 70894,
+            "name": "ARUSHA",
+            "postcode": "23"
+        },
+        {
+            "id": 88621,
+            "name": "DAR ES SALAAM",
+            "postcode": "11"
+        },
+        {
+            "id": 70889,
+            "name": "DODOMA",
+            "postcode": "41"
+        },
+        {
+            "id": 72832,
+            "name": "GEITA",
+            "postcode": "30"
+        },
+        {
+            "id": 70844,
+            "name": "IRINGA",
+            "postcode": "51"
+        },
+        {
+            "id": 70886,
+            "name": "KAGERA",
+            "postcode": "35"
+        },
+        {
+            "id": 70895,
+            "name": "KASKAZINI PEMBA",
+            "postcode": "75"
+        },
+        {
+            "id": 70898,
+            "name": "KASKAZINI UNGUJA",
+            "postcode": "73"
+        },
+        {
+            "id": 75159,
+            "name": "KATAVI",
+            "postcode": "50"
+        },
+        {
+            "id": 70884,
+            "name": "KIGOMA",
+            "postcode": "47"
+        },
+        {
+            "id": 75391,
+            "name": "KILIMANJARO",
+            "postcode": "25"
+        },
+        {
+            "id": 70896,
+            "name": "KUSINI PEMBA",
+            "postcode": "74"
+        },
+        {
+            "id": 70838,
+            "name": "KUSINI UNGUJA",
+            "postcode": "72"
+        },
+        {
+            "id": 75575,
+            "name": "LINDI",
+            "postcode": "65"
+        },
+        {
+            "id": 70888,
+            "name": "MANYARA",
+            "postcode": "27"
+        },
+        {
+            "id": 70885,
+            "name": "MARA",
+            "postcode": "31"
+        },
+        {
+            "id": 71015,
+            "name": "MBEYA",
+            "postcode": "53"
+        },
+        {
+            "id": 70897,
+            "name": "MJINI MAGHARIBI",
+            "postcode": "71"
+        },
+        {
+            "id": 70892,
+            "name": "MOROGORO",
+            "postcode": "67"
+        },
+        {
+            "id": 70893,
+            "name": "MTWARA",
+            "postcode": "63"
+        },
+        {
+            "id": 3,
+            "name": "MWANZA",
+            "postcode": "33"
+        },
+        {
+            "id": 70887,
+            "name": "NJOMBE",
+            "postcode": "59"
+        },
+        {
+            "id": 70891,
+            "name": "PWANI",
+            "postcode": "61"
+        },
+        {
+            "id": 79504,
+            "name": "RUKWA",
+            "postcode": "55"
+        },
+        {
+            "id": 80122,
+            "name": "RUVUMA",
+            "postcode": "57"
+        },
+        {
+            "id": 80986,
+            "name": "SHINYANGA",
+            "postcode": "37"
+        },
+        {
+            "id": 81725,
+            "name": "SIMIYU",
+            "postcode": "39"
+        },
+        {
+            "id": 70890,
+            "name": "SINGIDA",
+            "postcode": "43"
+        },
+        {
+            "id": 83073,
+            "name": "SONGWE",
+            "postcode": "54"
+        },
+        {
+            "id": 83555,
+            "name": "TABORA",
+            "postcode": "45"
+        },
+        {
+            "id": 84648,
+            "name": "TANGA",
+            "postcode": "21"
+        }
+    ]
+}
