@@ -23,6 +23,6 @@ function loadJsonFromFile($filePath) {
     }
 }
 
-loadJsonFromFile(app_path() . '../resources/combined_data.json');
+loadJsonFromFile(app_path() . '/../resources/combined_data.json');
 
 
