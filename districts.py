@@ -7,9 +7,9 @@ def transform_dict(dictionary):
         "name": dictionary["name"],
         "postcode": dictionary["postcode"],
         "parent": {
-            "id": dictionary["parent"]["id"],
-            "name": dictionary["parent"]["name"],
-            "postcode": dictionary["parent"]["postcode"]
+            "id": dictionary["parent"]["parent"]["id"] if dictionary["parent"]["parent"]["name"] == 'DAR ES SALAAM' else dictionary["parent"]["id"],
+            "name": dictionary["parent"]["parent"]["name"] if dictionary["parent"]["parent"]["name"] == 'DAR ES SALAAM' else dictionary["parent"]["name"],
+            "postcode": dictionary["parent"]["parent"]["postcode"] if dictionary["parent"]["parent"]["name"] == 'DAR ES SALAAM' else dictionary["parent"]["postcode"]
         }
     }
     return transformed_dict
